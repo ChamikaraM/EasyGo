@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "937377861340",
+    "firebase_url": "https://ego-test-a890a.firebaseio.com",
+    "project_id": "ego-test-a890a",
+    "storage_bucket": "ego-test-a890a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:937377861340:android:407b2b02657c0a65",
+        "android_client_info": {
+          "package_name": "com.example.chamiya.egot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "937377861340-ruhdogua4c63g8eqrks8ic6mcusgonpa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5Nrs2aWAV9oRWlYYQqyjKFn0jKdHVvY0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

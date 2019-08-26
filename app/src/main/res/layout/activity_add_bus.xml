@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".admin.AddBusActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin">
+
+
+        <ImageView
+            android:layout_width="@dimen/logo_w_h"
+            android:layout_height="@dimen/logo_w_h"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:src="@mipmap/ic_launcher"
+            android:contentDescription=""
+            tools:ignore="ContentDescription" />
+
+
+        <EditText
+            android:id="@+id/registeredNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Registered No."
+            android:maxLines="1"
+            android:textColor="@android:color/white"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/dst1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="From"
+            android:maxLines="1"
+            android:textColor="@android:color/white"
+            android:inputType="text"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:id="@+id/dst2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="To"
+            android:maxLines="1"
+            android:textColor="@android:color/white"
+            android:inputType="text"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:id="@+id/routeNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Route No."
+            android:maxLines="1"
+            android:textColor="@android:color/white"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:textColor="@android:color/white"
+            />
+
+
+        <Button
+            android:id="@+id/add_bus_button"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorAccent"
+            android:text="ADD"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <!-- Link to Login Screen -->
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@null"
+            android:text="Go Back"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
+
+</android.support.constraint.ConstraintLayout>
+
+
+
+
+
+
+
